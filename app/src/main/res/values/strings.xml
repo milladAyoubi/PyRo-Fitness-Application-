@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Pyro Application</string>
+    <string name="enter_workout">Enter Workout</string>
+    <string name="enter_time">Enter Time</string>
+    <string name="enter_calories">Enter Calories</string>
+    <string name="enter_data">Enter Data</string>
+    <string name="button">Button</string>
 </resources>

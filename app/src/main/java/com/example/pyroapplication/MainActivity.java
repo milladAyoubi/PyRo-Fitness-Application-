@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 if (count <= 10 )
-                Snackbar.make(view, "Bitch You Ain't Shit", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Hello There! ", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
 
                 else
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
                 count += 1;
 
-                textBox1.setText("" + count);
+                textBox1.setText(String.valueOf(count));
 
 
 
