@@ -5,4 +5,10 @@
     <string name="enter_calories">Enter Calories</string>
     <string name="enter_data">Enter Data</string>
     <string name="button">Button</string>
+    <string name="pyro_fitness_tracker">PyRo Fitness Tracker</string>
+    <string name="welcome">Welcome!</string>
+    <string name="no_account_register_here">No Account? Register Here!</string>
+    <string name="login">Login</string>
+    <string name="no_account">No account?</string>
+    <string name="register_here">Register Here!</string>
 </resources>

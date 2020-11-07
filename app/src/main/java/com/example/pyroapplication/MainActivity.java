@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toast.makeText(getApplicationContext(),"Connected To FireBase DataBase",Toast.LENGTH_SHORT).show();
         FloatingActionButton fab = findViewById(R.id.fab);
-        final TextView textBox1 = findViewById(R.id.txt1);
+
 
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
                 count += 1;
 
-                textBox1.setText(String.valueOf(count));
+
 
 
 
