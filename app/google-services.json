@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "369427408410",
+    "firebase_url": "https://pyro-application.firebaseio.com",
+    "project_id": "pyro-application",
+    "storage_bucket": "pyro-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369427408410:android:8145519cb34848b08093a3",
+        "android_client_info": {
+          "package_name": "com.example.pyroapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369427408410-qh8baa5tv5ocsj253huidgi1otg0q7ie.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pyroapplication",
+            "certificate_hash": "6eea0de268e8151ffef37c05663898ec971afe2f"
+          }
+        },
+        {
+          "client_id": "369427408410-ieau5jonqo8vtr058qlom7i0mssevir5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmxIx2QpiDHPqfIajbjbi6OY6u-5qCh5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369427408410-ieau5jonqo8vtr058qlom7i0mssevir5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
