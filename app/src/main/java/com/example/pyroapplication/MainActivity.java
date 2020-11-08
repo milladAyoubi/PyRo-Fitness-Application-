@@ -12,18 +12,20 @@ import android.widget.Button;
 
 
 public class MainActivity extends AppCompatActivity {
-     Button workoutButton = findViewById(R.id.login);
+     Button workoutButton;
+    private  int count = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
 
-        workoutButton.setOnClickListener(new View.OnClickListener(){
+        workoutButton = findViewById(R.id.login);
+
+
+            workoutButton.setOnClickListener(new View.OnClickListener(){
 
                 @Override
-
-
                 public void onClick(View v) {
                     Intent intent = new Intent(MainActivity.this, workoutPage.class);
                     startActivity(intent);
