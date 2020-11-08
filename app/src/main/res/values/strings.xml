@@ -20,4 +20,10 @@
     <string name="workout_information">Workout Information!</string>
 
     <string name="enter">Enter</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="create_user_account">Create User Account</string>
+
 </resources>
