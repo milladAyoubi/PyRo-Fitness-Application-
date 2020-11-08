@@ -4,11 +4,26 @@
     <string name="enter_time">Enter Time</string>
     <string name="enter_calories">Enter Calories</string>
     <string name="enter_data">Enter Data</string>
-    <string name="button">Button</string>
+    <string name="button1">Button</string>
     <string name="pyro_fitness_tracker">PyRo Fitness Tracker</string>
     <string name="welcome">Welcome!</string>
     <string name="no_account_register_here">No Account? Register Here!</string>
     <string name="no_account">No account?</string>
     <string name="register_here">Register Here!</string>
     <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="calories1">calories</string>
+    <string name="workout_type">Workout Type</string>
+    <string name="Calories" />
+    <string name="duration1">Duration</string>
+    <string name="date1">Date</string>
+    <string name="textview">TextView</string>
+    <string name="workout_tracker">Workout Tracker</string>
+    <string name="calories">calories</string>
+    <string name="type">Type</string>
+    <string name="use_text_boxes_above_to_enter">Use Text Boxes Above to Enter</string>
+    <string name="date">Date</string>
+    <string name="workout_information">Workout Information!</string>
+    <string name="duration">Duration</string>
+    <string name="button">Button</string>
 </resources>
