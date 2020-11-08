@@ -73,7 +73,6 @@
         android:autofillHints=""
         android:background="@drawable/text"
         android:ems="10"
-        android:hint="@string/calories"
         android:inputType="number"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
         app:layout_constraintEnd_toEndOf="parent"
@@ -90,7 +89,6 @@
         android:autofillHints=""
         android:background="@drawable/text"
         android:ems="10"
-        android:hint="@string/workout_type"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -108,7 +106,6 @@
         android:autofillHints=""
         android:background="@drawable/text"
         android:ems="10"
-        android:hint="@string/duration"
         android:inputType="time"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -126,7 +123,6 @@
         android:autofillHints=""
         android:background="@drawable/text"
         android:ems="10"
-        android:hint="@string/date"
         android:inputType="date"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -161,10 +157,10 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintHorizontal_bias="0.086"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.799" />
+        app:layout_constraintVertical_bias="0.808" />
 
     <TextView
         android:id="@+id/textView11"
@@ -176,19 +172,22 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintHorizontal_bias="0.072"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.833" />
+        app:layout_constraintVertical_bias="0.842" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/button"
+        android:id="@+id/enterButton"
+        android:layout_width="167dp"
+        android:layout_height="42dp"
+        android:background="@drawable/button"
+        android:text="@string/enter"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintHorizontal_bias="0.058"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.957" />

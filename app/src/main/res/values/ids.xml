@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextTime" type="id" />
+    <item name="textView6" type="id" />
+    <item name="editTextNumber" type="id" />
+    <item name="editTextTextPersonName" type="id" />
+    <item name="textView8" type="id" />
+    <item name="editTextDate" type="id" />
+</resources>
