@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "369427408410-v2gdoeiu9up9l86009ts7fabkf0ko2vk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pyroapplication",
+            "certificate_hash": "45ef886a6e7f91513830dc9fb63a4da8ab987485"
+          }
+        },
+        {
           "client_id": "369427408410-qh8baa5tv5ocsj253huidgi1otg0q7ie.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

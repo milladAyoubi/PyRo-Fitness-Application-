@@ -8,7 +8,7 @@ import android.os.Bundle;
 
 import android.view.View;
 import android.widget.Button;
-
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -56,6 +56,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Toast.makeText(MainActivity.this , "Firebase connection success", Toast.LENGTH_LONG).show();
 
     }
     }
