@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
 
-        android:background="@drawable/background"
+        android:background="@drawable/background2"
         tools:context=".MainActivity"
         tools:layout_editor_absoluteX="-16dp"
         tools:layout_editor_absoluteY="-112dp">
@@ -19,28 +19,29 @@
             android:id="@+id/textView15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:alpha="0.6"
+            android:alpha="0.8"
             android:fontFamily="@font/light"
-            android:text="@string/pyro_fitness_tracker"
-            android:textColor="#000000"
+            android:text="@string/register_today1"
+            android:textColor="#2A2D7B"
             android:textColorHint="#FFFFFF"
-            android:textSize="30sp"
+            android:textSize="36sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintHorizontal_bias="0.354"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.135" />
+            app:layout_constraintVertical_bias="0.139" />
 
         <EditText
             android:id="@+id/editTextTextPersonName3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="243dp"
+            android:layout_height="47dp"
+            android:background="@drawable/text"
             android:ems="10"
             android:hint="@string/name"
             android:importantForAutofill="no"
             android:inputType="textPersonName"
-            android:textColorHint="#FFFFFF"
+            android:textColorHint="#2A2D7B"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.343"
@@ -50,13 +51,14 @@
 
         <EditText
             android:id="@+id/editTextTextEmailAddress"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="245dp"
+            android:layout_height="45dp"
+            android:background="@drawable/text"
             android:ems="10"
             android:hint="@string/email"
             android:importantForAutofill="no"
             android:inputType="textEmailAddress"
-            android:textColorHint="#FBFBFB"
+            android:textColorHint="#2A2D7B"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.343"
@@ -66,19 +68,20 @@
 
         <EditText
             android:id="@+id/editTextTextPassword"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="254dp"
+            android:layout_height="51dp"
             android:autofillHints=""
+            android:background="@drawable/text"
             android:ems="10"
             android:hint="@string/password"
             android:inputType="textPassword"
-            android:textColorHint="#FFFFFF"
+            android:textColorHint="#2A2D7B"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.343"
+            app:layout_constraintHorizontal_bias="0.382"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
-            app:layout_constraintVertical_bias="0.07" />
+            app:layout_constraintVertical_bias="0.076" />
 
         <Button
             android:id="@+id/register2"

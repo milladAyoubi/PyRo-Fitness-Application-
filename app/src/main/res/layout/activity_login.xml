@@ -9,7 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/background"
+        android:background="@drawable/background2"
 
         tools:context=".MainActivity"
         tools:layout_editor_absoluteX="-28dp"
@@ -17,13 +17,14 @@
 
         <EditText
             android:id="@+id/editTextTextPassword2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="233dp"
+            android:layout_height="57dp"
             android:autofillHints=""
+            android:background="@drawable/text"
             android:ems="10"
             android:hint="@string/password"
             android:inputType="textPassword"
-            android:textColorHint="#FFFFFF"
+            android:textColorHint="#2A2D7B"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.383"
@@ -33,13 +34,14 @@
 
         <EditText
             android:id="@+id/editTextTextEmailAddress2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="237dp"
+            android:layout_height="55dp"
+            android:background="@drawable/text"
             android:ems="10"
             android:hint="@string/email"
             android:importantForAutofill="no"
             android:inputType="textEmailAddress"
-            android:textColorHint="#FBFBFB"
+            android:textColorHint="#2A2D7B"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.383"
@@ -51,18 +53,18 @@
             android:id="@+id/textView13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:alpha="0.6"
+            android:alpha="0.8"
             android:fontFamily="@font/light"
-            android:text="@string/pyro_fitness_tracker"
-            android:textColor="#000000"
+            android:text="@string/welcome_back"
+            android:textColor="#2A2D7B"
             android:textColorHint="#FFFFFF"
-            android:textSize="30sp"
+            android:textSize="34sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintHorizontal_bias="0.401"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.136" />
+            app:layout_constraintVertical_bias="0.178" />
 
         <Button
             android:id="@+id/login2"

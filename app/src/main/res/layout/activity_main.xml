@@ -87,16 +87,16 @@
 
     <Button
         android:id="@+id/register"
-        android:layout_width="97dp"
-        android:layout_height="40dp"
+        android:layout_width="103dp"
+        android:layout_height="31dp"
         android:background="@drawable/button"
         android:text="@string/register"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintHorizontal_bias="0.108"
         app:layout_constraintStart_toEndOf="@+id/textView3"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.323" />
+        app:layout_constraintVertical_bias="0.32" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
