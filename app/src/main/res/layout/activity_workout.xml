@@ -16,7 +16,7 @@
         android:textColor="#2A2D7B"
         android:textSize="26sp"
         app:layout_constraintBottom_toTopOf="@+id/textView6"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber"
+        app:layout_constraintEnd_toStartOf="@+id/workoutCalories"
         app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -31,7 +31,7 @@
         android:textColor="#2A2D7B"
         android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTime"
+        app:layout_constraintEnd_toStartOf="@+id/workoutDuration"
         app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -46,7 +46,7 @@
         android:textColor="#2A2D7B"
         android:textSize="26sp"
         app:layout_constraintBottom_toTopOf="@+id/textView8"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/workoutType"
         app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -56,26 +56,25 @@
         android:id="@+id/textView9"
         android:layout_width="106dp"
         android:layout_height="36dp"
+        android:layout_marginStart="32dp"
         android:fontFamily="@font/light"
         android:text="@string/date"
         android:textColor="#2A2D7B"
         android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/editTextDate"
-        app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
-        app:layout_constraintVertical_bias="0.235" />
+        app:layout_constraintVertical_bias="0.249" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/workoutCalories"
         android:layout_width="227dp"
         android:layout_height="40dp"
         android:autofillHints=""
         android:background="@drawable/text"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/workoutType"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.788"
         app:layout_constraintStart_toStartOf="parent"
@@ -84,7 +83,7 @@
         tools:ignore="LabelFor" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/workoutType"
         android:layout_width="227dp"
         android:layout_height="40dp"
         android:autofillHints=""
@@ -100,7 +99,7 @@
         tools:ignore="LabelFor" />
 
     <EditText
-        android:id="@+id/editTextTime"
+        android:id="@+id/workoutDuration"
 
         android:layout_width="227dp"
         android:layout_height="40dp"
@@ -114,23 +113,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.548"
-        tools:ignore="LabelFor" />
-
-    <EditText
-        android:id="@+id/editTextDate"
-
-        android:layout_width="227dp"
-        android:layout_height="40dp"
-        android:autofillHints=""
-        android:background="@drawable/text"
-        android:ems="10"
-        android:inputType="date"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.788"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTime"
-        app:layout_constraintVertical_bias="0.227"
         tools:ignore="LabelFor" />
 
     <TextView
@@ -150,15 +132,15 @@
 
     <TextView
         android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_height="24dp"
         android:fontFamily="@font/light"
-        android:text="@string/use_text_boxes_above_to_enter"
+        android:text="@string/use_boxes_to_enter"
         android:textColor="#2A2D7B"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintHorizontal_bias="0.056"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.808" />
@@ -173,10 +155,10 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintHorizontal_bias="0.063"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.842" />
+        app:layout_constraintVertical_bias="0.841" />
 
     <Button
         android:id="@+id/enterButton"
@@ -192,5 +174,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.957" />
+
+    <CalendarView
+        android:id="@+id/workoutDate"
+        android:layout_width="226dp"
+        android:layout_height="228dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.862" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

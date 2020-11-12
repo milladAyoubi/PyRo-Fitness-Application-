@@ -9,8 +9,7 @@
     <string name="register_here">Register Here!</string>
 
 
-    <string name="workout_tracker">Workout Tracker</string>
-    <string name="calories">calories</string>
+    <string name="workout_tracker">Workout Tracker</string>calories
     <string name="type">Type</string>
     <string name="date">Date</string>
     <string name="duration">Duration</string>
@@ -29,5 +28,7 @@
     <string name="register_today" />
     <string name="register_today1">Register Today!</string>
     <string name="welcome_back">Welcome Back</string>
+    <string name="calories">calories</string>
+    <string name="use_boxes_to_enter">Use Boxes to Enter</string>
 
 </resources>
