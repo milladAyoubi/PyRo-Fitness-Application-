@@ -36,5 +36,8 @@
     <string name="button">Button</string>
     <string name="add">Add</string>
     <string name="view_workouts">View Workouts</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="view">View</string>
 
 </resources>
