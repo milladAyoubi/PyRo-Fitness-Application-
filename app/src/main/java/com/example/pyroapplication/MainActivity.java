@@ -17,7 +17,10 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    private  int count = 0;
+
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,6 +61,9 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Toast.makeText(MainActivity.this , "Firebase connection success", Toast.LENGTH_LONG).show();
+
+
+
 
     }
     }

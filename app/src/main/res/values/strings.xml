@@ -20,7 +20,7 @@
 
     <string name="enter">Enter</string>
     <string name="register">Register</string>
-    <string name="name">Name</string>
+
     <string name="password">Password</string>
     <string name="email">Email</string>
     <string name="create_user_account">Create User Account</string>
@@ -28,7 +28,13 @@
     <string name="register_today" />
     <string name="register_today1">Register Today!</string>
     <string name="welcome_back">Welcome Back</string>
-    <string name="calories">calories</string>
     <string name="use_boxes_to_enter">Use Boxes to Enter</string>
+    <string name="calories">Calories</string>
+
+    <string name="button1">Button</string>
+    <string name="name">Name</string>
+    <string name="button">Button</string>
+    <string name="add">Add</string>
+    <string name="view_workouts">View Workouts</string>
 
 </resources>
