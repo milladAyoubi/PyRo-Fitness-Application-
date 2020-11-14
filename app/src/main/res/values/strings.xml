@@ -39,5 +39,7 @@
     <string name="save">Save</string>
     <string name="delete">Delete</string>
     <string name="view">View</string>
+    <string name="enter_workout">Enter Workout</string>
+    <string name="logout">Logout</string>
 
 </resources>
