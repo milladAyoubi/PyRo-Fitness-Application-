@@ -26,6 +26,8 @@ public class workoutPage extends AppCompatActivity {
 
 
     EditText workoutType;
+    EditText workoutCalories;
+    EditText workoutDuration;
 
 
     DatabaseHelper databaseHelper;
@@ -39,6 +41,8 @@ public class workoutPage extends AppCompatActivity {
         calenderView =  findViewById(R.id.workoutDate);
         workoutEnter = findViewById(R.id.enterButton);
         workoutType = findViewById(R.id.workoutType);
+         workoutCalories = findViewById(R.id.workoutCalories);
+         workoutDuration = findViewById(R.id.workoutDuration);
         viewWorkout  = findViewById(R.id.workoutView);
 
 
@@ -58,9 +62,15 @@ public class workoutPage extends AppCompatActivity {
         workoutEnter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String newEntry = workoutType.getText().toString();
-                if(workoutType.length() !=0) {
-                    AddData(newEntry);
+                String workoutTypeEntry = workoutType.getText().toString();
+                String workoutCaloriesEntry = workoutCalories.getText().toString();
+                String workoutDurationEntry = workoutDuration.getText().toString();
+
+
+
+                if(workoutType.length() !=0 && workoutCaloriesEntry.length() !=0 && workoutDurationEntry.length() !=0) {
+                    String item = "Date:   Calories: " + workoutCaloriesEntry + " - Type: " + workoutTypeEntry + " - Duration: " + workoutDurationEntry;
+                    AddData(item);
                     workoutType.setText("");
                 }
                 else {
