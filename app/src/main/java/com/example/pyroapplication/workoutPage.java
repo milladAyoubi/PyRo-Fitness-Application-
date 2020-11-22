@@ -3,6 +3,7 @@ package com.example.pyroapplication;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
@@ -12,6 +13,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CalendarView;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -30,6 +32,10 @@ public class workoutPage extends AppCompatActivity {
     EditText workoutDuration;
 
 
+    TextView dateLog;
+
+    public static String calenderEntry;
+
     DatabaseHelper databaseHelper;
 
 
@@ -46,20 +52,24 @@ public class workoutPage extends AppCompatActivity {
         viewWorkout  = findViewById(R.id.workoutView);
 
 
+        dateLog = findViewById(R.id.dateLog);
+
+
+
+
         calenderView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
             public void onSelectedDayChange(@NonNull CalendarView view, int year, int month, int dayOfMonth) {
-                String date = (dayOfMonth) + "/" + month + "/" + year;
-                Toast.makeText(workoutPage.this, date, Toast.LENGTH_SHORT).show();
+                calenderEntry = (dayOfMonth) + "/" + month + "/" + year;
+
+
             }
         });
-
-
-
 
         databaseHelper = new DatabaseHelper(this);
 
         workoutEnter.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
                 String workoutTypeEntry = workoutType.getText().toString();
@@ -68,10 +78,17 @@ public class workoutPage extends AppCompatActivity {
 
 
 
-                if(workoutType.length() !=0 && workoutCaloriesEntry.length() !=0 && workoutDurationEntry.length() !=0) {
-                    String item = "Date:   Calories: " + workoutCaloriesEntry + " - Type: " + workoutTypeEntry + " - Duration: " + workoutDurationEntry;
+
+
+                if(workoutType.length() !=0 && workoutCaloriesEntry.length() !=0 && workoutDurationEntry.length() !=0 ) {
+                    String item = "Date: " + calenderEntry + " - Calories: " + workoutCaloriesEntry + " - Type: " + workoutTypeEntry + " - Duration: " + workoutDurationEntry;
                     AddData(item);
+
                     workoutType.setText("");
+                    workoutCalories.setText("");
+                    workoutDuration.setText("");
+
+                    dateLog.setText("Last Workout Logged " + calenderEntry);
                 }
                 else {
                     Toast.makeText(getApplicationContext(), "Put Something first!", Toast.LENGTH_SHORT).show();
@@ -102,5 +119,7 @@ public class workoutPage extends AppCompatActivity {
 
 
     }
+
+
 
 }

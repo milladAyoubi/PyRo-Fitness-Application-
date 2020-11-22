@@ -21,6 +21,8 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class viewWorkout extends AppCompatActivity {
+
+    Button backButon;
     ListView list;
 public static final String TAG = "ListDataActivity";
 DatabaseHelper databaseHelper;
@@ -30,10 +32,26 @@ DatabaseHelper databaseHelper;
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_workout);
-         list = findViewById(R.id.list);
+        list = findViewById(R.id.list);
+        backButon = findViewById(R.id.back);
         databaseHelper =  new DatabaseHelper(this);
 
+
+
+
         populateListView();
+
+
+
+        backButon.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(viewWorkout.this, workoutPage.class);
+                startActivity(intent);
+            }
+        });
+
 
 
 

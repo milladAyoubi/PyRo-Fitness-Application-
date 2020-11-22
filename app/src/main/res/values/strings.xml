@@ -41,5 +41,6 @@
     <string name="view">View</string>
     <string name="enter_workout">Enter Workout</string>
     <string name="logout">Logout</string>
+    <string name="go_back">Go Back</string>
 
 </resources>
