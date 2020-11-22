@@ -42,13 +42,14 @@ public class MainMenu extends AppCompatActivity {
         }) ;
 
         logout.setOnClickListener(new View.OnClickListener(){
-                @Override
-                public void onClick(View v) {
-                    FirebaseAuth.getInstance().signOut();
-                    Toast.makeText(MainMenu.this, "Logged Out!", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(MainMenu.this, MainActivity.class));
+            @Override
+            public void onClick(View v) {
+                FirebaseAuth.getInstance().signOut();
+                Toast.makeText(MainMenu.this, "Logged Out!", Toast.LENGTH_LONG).show();
+                startActivity(new Intent(MainMenu.this, MainActivity.class));
             }
         }) ;
+
 
 
     }

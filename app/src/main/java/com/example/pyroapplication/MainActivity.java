@@ -31,15 +31,6 @@ public class MainActivity extends AppCompatActivity {
         registerButton = findViewById(R.id.register);
 
 
-        /*    workoutButton.setOnClickListener(new View.OnClickListener(){
-
-                @Override
-                public void onClick(View v) {
-                   Intent intent = new Intent(MainActivity.this, workoutPage.class);
-                    startActivity(intent);
-                }
-            }) ;
-*/
 
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Toast.makeText(MainActivity.this , "Firebase connection success", Toast.LENGTH_LONG).show();
+
 
 
 
