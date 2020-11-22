@@ -24,7 +24,7 @@ public class workoutPage extends AppCompatActivity {
     Button workoutEnter;
     Button viewWorkout;
 
-    String type;
+
 
 
     EditText workoutType;
