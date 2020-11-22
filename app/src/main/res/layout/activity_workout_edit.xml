@@ -37,4 +37,17 @@
         android:autofillHints=""
         tools:ignore="LabelFor" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="311dp"
+        android:layout_height="392dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/record"
+        android:contentDescription="@string/editimg" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

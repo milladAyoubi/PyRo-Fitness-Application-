@@ -46,6 +46,15 @@
     <string name="tip_your_metabolic_window_for_protein_sythesis_can_be_up_to_2_hours">Tip! Your metabolic window for protein sythesis can be up to 2 hours!</string>
     <string name="today_s_tip_your_metabolic_window_for_protein_synthesis_can_be_up_to_2_hours">Today\'s Tip! Your metabolic window for protein synthesis can be up to 2 hours!</string>
     <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
+
+    <string name="viewimg">VIEWIMG</string>
+    <string name="enterimg">ENTERIMG</string>
+    <string name="home">Home</string>
+    <string name="the_easy_fitness_app">The Easy Fitness App!</string>
+    <string name="pyro">PyRo</string>
+    <string name="mainimg">MAINIMG</string>
+    <string name="ready_to_get_started">Ready to Get Started?</string>
+    <string name="editimg">EDITIMG</string>
+
 
 </resources>

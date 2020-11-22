@@ -18,9 +18,25 @@
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.138" />
+        app:layout_constraintVertical_bias="0.146" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="344dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/light"
+        android:text="@string/ready_to_get_started"
+        android:textColor="#2A2D7B"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/Logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.028" />
 
     <TextView
         android:id="@+id/workoutTip"
@@ -46,10 +62,10 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintHorizontal_bias="0.129"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.808" />
+        app:layout_constraintVertical_bias="0.837" />
 
     <Button
         android:id="@+id/ViewWO"
@@ -63,7 +79,7 @@
         app:layout_constraintHorizontal_bias="0.941"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.808" />
+        app:layout_constraintVertical_bias="0.837" />
 
     <Button
         android:id="@+id/Logout"
@@ -74,37 +90,47 @@
         android:textColor="#36454F"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.44"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.958" />
+        app:layout_constraintVertical_bias="0.989" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="179dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="364dp"
+        android:id="@+id/imageView4"
+        android:layout_width="175dp"
+        android:layout_height="139dp"
+        android:layout_marginBottom="12dp"
         app:layout_constraintBottom_toTopOf="@+id/EnterWO"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintHorizontal_bias="0.067"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.4"
-        app:srcCompat="@drawable/workout1"
-        android:contentDescription="@string/todo" />
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/fitness"
+        android:contentDescription="@string/enterimg" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="205dp"
-        android:layout_height="128dp"
-        android:layout_marginTop="380dp"
+        android:id="@+id/imageView5"
+        android:layout_width="180dp"
+        android:layout_height="138dp"
         app:layout_constraintBottom_toTopOf="@+id/ViewWO"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.93"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/view"
-        android:contentDescription="@string/todo" />
+        app:layout_constraintVertical_bias="0.97"
+        app:srcCompat="@drawable/tracker"
+        android:contentDescription="@string/viewimg" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="290dp"
+        android:layout_height="211dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.405"
+        app:srcCompat="@drawable/stats" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
