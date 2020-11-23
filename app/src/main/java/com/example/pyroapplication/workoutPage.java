@@ -23,6 +23,7 @@ public class workoutPage extends AppCompatActivity {
     CalendarView calenderView;
     Button workoutEnter;
     Button viewWorkout;
+    Button back;
 
 
 
@@ -50,6 +51,7 @@ public class workoutPage extends AppCompatActivity {
          workoutCalories = findViewById(R.id.workoutCalories);
          workoutDuration = findViewById(R.id.workoutDuration);
         viewWorkout  = findViewById(R.id.workoutView);
+        back = findViewById(R.id.backbtn);
 
 
         dateLog = findViewById(R.id.dateLog);
@@ -101,6 +103,15 @@ public class workoutPage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(workoutPage.this, viewWorkout.class);
+                startActivity(intent);
+            }
+        });
+
+        back.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(workoutPage.this, MainMenu.class);
                 startActivity(intent);
             }
         });
