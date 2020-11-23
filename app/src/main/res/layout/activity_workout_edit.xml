@@ -23,18 +23,21 @@
 
     <EditText
         android:id="@+id/editItem"
-        android:layout_width="310dp"
-        android:layout_height="62dp"
-        android:ems="10"
+        android:layout_width="381dp"
+        android:layout_height="53dp"
+        android:autofillHints=""
+        android:background="@drawable/text"
+        android:ems="8"
+        android:fontFamily="@font/light"
         android:inputType="textPersonName"
         android:text=""
+        android:textColor="#2A2D7B"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.281"
-        android:autofillHints=""
+        app:layout_constraintVertical_bias="0.277"
         tools:ignore="LabelFor" />
 
     <ImageView

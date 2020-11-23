@@ -60,7 +60,7 @@ public class workoutPage extends AppCompatActivity {
         calenderView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
             public void onSelectedDayChange(@NonNull CalendarView view, int year, int month, int dayOfMonth) {
-                calenderEntry = (dayOfMonth) + "/" + month + "/" + year;
+                calenderEntry =  (dayOfMonth) + "/" + month + "/" + year;
 
 
             }
@@ -81,7 +81,7 @@ public class workoutPage extends AppCompatActivity {
 
 
                 if(workoutType.length() !=0 && workoutCaloriesEntry.length() !=0 && workoutDurationEntry.length() !=0 ) {
-                    String item = "Date: " + calenderEntry + " - Calories: " + workoutCaloriesEntry + " - Type: " + workoutTypeEntry + " - Duration: " + workoutDurationEntry;
+                    String item =   calenderEntry + " -- " + workoutCaloriesEntry + " Cal -- " + workoutTypeEntry + " --  " + workoutDurationEntry + " min";
                     AddData(item);
 
                     workoutType.setText("");

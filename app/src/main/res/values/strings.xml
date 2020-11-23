@@ -55,6 +55,7 @@
     <string name="mainimg">MAINIMG</string>
     <string name="ready_to_get_started">Ready to Get Started?</string>
     <string name="editimg">EDITIMG</string>
+    <string name="accimg">ACCIMG</string>
 
 
 </resources>

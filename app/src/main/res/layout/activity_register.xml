@@ -51,8 +51,8 @@
 
         <EditText
             android:id="@+id/editTextTextEmailAddress"
-            android:layout_width="245dp"
-            android:layout_height="45dp"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
             android:background="@drawable/text"
             android:ems="10"
             android:hint="@string/email"
@@ -61,15 +61,15 @@
             android:textColorHint="#2A2D7B"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.343"
+            app:layout_constraintHorizontal_bias="0.36"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
-            app:layout_constraintVertical_bias="0.055" />
+            app:layout_constraintVertical_bias="0.054" />
 
         <EditText
             android:id="@+id/editTextTextPassword"
-            android:layout_width="254dp"
-            android:layout_height="51dp"
+            android:layout_width="252dp"
+            android:layout_height="44dp"
             android:autofillHints=""
             android:background="@drawable/text"
             android:ems="10"
