@@ -14,6 +14,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
      Button loginButton;
      Button registerButton;
+     Button resetPWButton;
 
 
 
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         loginButton = findViewById(R.id.login);
         registerButton = findViewById(R.id.register);
+        resetPWButton = findViewById(R.id.resetbtn);
 
 
 
@@ -47,6 +49,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        resetPWButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ForgotPassword.class);
                 startActivity(intent);
             }
         });

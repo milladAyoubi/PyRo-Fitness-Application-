@@ -47,7 +47,7 @@ DatabaseHelper databaseHelper;
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(viewWorkout.this, workoutPage.class);
+                Intent intent = new Intent(viewWorkout.this, MainMenu.class);
                 startActivity(intent);
             }
         });

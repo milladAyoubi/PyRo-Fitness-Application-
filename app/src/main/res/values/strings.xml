@@ -57,6 +57,11 @@
     <string name="editimg">EDITIMG</string>
     <string name="accimg">ACCIMG</string>
     <string name="back">back</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="reset">Reset</string>
+    <string name="reset_now">Reset Now!</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="forgotpassword">Forgot Password?</string>
 
 
 </resources>
