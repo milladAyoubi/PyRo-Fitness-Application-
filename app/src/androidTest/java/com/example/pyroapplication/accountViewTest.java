@@ -36,10 +36,10 @@ import static org.hamcrest.Matchers.is;
 public class accountViewTest {
 
     @Rule
-    public ActivityTestRule<MainActivity> mActivityTestRule = new ActivityTestRule<>(MainActivity.class);
+    protected ActivityTestRule<MainActivity> mActivityTestRule = new ActivityTestRule<>(MainActivity.class);
 
     @Test
-    public void accountViewTest() {
+    public void accountViewTester() {
         ViewInteraction appCompatButton = onView(
                 allOf(withId(R.id.login), withText("Login"),
                         childAtPosition(

@@ -33,7 +33,5 @@ public class mainActivityUnitTest {
     assertNotNull(register);
     assertNotNull(reset);
     }
-    @After
-    public void tearDown() {
-    }
+
 }

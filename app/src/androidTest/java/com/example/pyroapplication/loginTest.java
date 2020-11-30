@@ -39,7 +39,7 @@ public class loginTest {
     public ActivityTestRule<MainActivity> mActivityTestRule = new ActivityTestRule<>(MainActivity.class);
 
     @Test
-    public void loginTest() {
+    public void loginTester() {
         ViewInteraction appCompatButton = onView(
                 allOf(withId(R.id.login), withText("Login"),
                         childAtPosition(
