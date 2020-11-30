@@ -53,13 +53,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        resetPWButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ForgotPassword.class);
-                startActivity(intent);
-            }
-        });
 
 
 
