@@ -6,3 +6,5 @@ After completing their exercise, users can enter the calories they have burned f
 
 This is necessary for the type of user who desires to track their progress. Once they finish their workout they can use the application to record their progress during that workout which can then be referenced at a later date. A user is able to monitor their progress over a period of time. 
 
+
+![Alt text](C:/Users/Ryzen 3700x/Pictures/wallpapaers/oia.jpg?raw=true "Title")
